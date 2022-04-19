@@ -122,7 +122,7 @@ namespace SlothingStoreSystem.CamadaDeDadosGeral
         
         }
 
-        // busca completa sem filtro --> Usadop quando abrir a parte de estoque ou quando remover todos os filtros.
+        // busca completa sem filtro --> Usado quando abrir a parte de estoque ou quando remover todos os filtros.
         public void BuscaCompletaDeTodoEstoqueSemFiltro(DataGridView data)
         {
             var cn = new SqlConnection();
